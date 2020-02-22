@@ -71,7 +71,7 @@ public class ShoppingCart {
             totalPrice += v*k.getPrice();
             stringBuffer.append("\t" + v.intValue() + "\t\t" + k+"\t\t" + (v.intValue()*k.getPrice())+"元"+"\n");
         }
-        stringBuffer.append("\t\t\t\t总价："+totalPrice+"元");
+        stringBuffer.append("\t\t\t\t\t\t\t\t\t\t\t\t总价："+totalPrice+"元");
         System.out.println(stringBuffer);
     }
 }

@@ -48,6 +48,6 @@ public class Products {
         return false;
     }
     public String toString(){
-        return name;
+        return "Product[编号："+no+", 名称："+name+", 单价："+price+"]";
     }
 }

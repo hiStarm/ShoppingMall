@@ -12,7 +12,7 @@ public class Test {
         ShoppingCart cart = new ShoppingCart();
         //货物
         Products p1 = new Products(1000,"苹   果",2.5);
-        Products p2 = new Products(1015,"iphone",4500);
+        Products p2 = new Products(1015,"iphone",4500.0);
         Products p3 = new Products(2015,"香   蕉",10.5);
         Products p4 = new Products(6036,"青    菜",1.5);
         Products p5 = new Products(1123,"铅   笔",5.5);
